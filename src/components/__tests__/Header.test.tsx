@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 
 import Header from "../Header";
-import { client } from "client";
+import { client } from "../../client";
 import { mockMenuItems } from "components/common/mock_data";
 
 describe("Rendering the Header", () => {
